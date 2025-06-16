@@ -8,7 +8,7 @@ Original file is located at
 """
 
 from lime.lime_text import LimeTextExplainer
-from src.model import predict_sentiment
+from model import predict_sentiment
 
 # Initialize the LIME explainer with class names
 explainer = LimeTextExplainer(class_names=['negative', 'neutral', 'positive'])
